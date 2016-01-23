@@ -10,19 +10,6 @@
 
 static clock_t start, stop;    //For Tick and Tock time measurement functions
 
-int *GenerateRandomArray(int array[], int arrayLength, int min, int max)
-{
-  int i;
-  int range = max - min;
-
-  for (i = 0; i < arrayLength; i++)
-    {
-      int newNumber = min + (RandInt() % range);
-      array[i] = newNumber;
-    }
-  return array;
-}
-
 // Create a buffer and asks you to type something into it. 
 void EnterSomething(char *buffer, int buffSize)
 {

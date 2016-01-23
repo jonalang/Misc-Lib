@@ -1,8 +1,7 @@
 #ifndef _MYLIB_H_
 #define _MYLIB_H_
-int *GenerateRandomArray(int *initializedSpace, int arrayLength, int min, int max);
+
 void EnterSomething(char *buffer, int buffSize);
-int DisplayArray(char *message, int array[], int arraySize);
 int IfCommandLineContains(char searched[], char *input[], int inputLength); 
 int IsPowerOfTwo(int input);
 int RandInt();
